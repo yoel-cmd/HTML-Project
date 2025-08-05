@@ -17,10 +17,9 @@
         <input type="tel" name="tel" placeholder="tel" id="tel">
         <input type="submit" value="submit">
     </fieldset>
-    <br>
     <fieldset>
         <legend>Ticket & Workshops</legend>
-        <select name="Tickets" id="icket" required>
+        <select name="Tickets" id="ticket" required>
             <option value="Standard">Standard</option>
             <option value="VIP">VIP</option>
             <option value="Student">Student</option>
@@ -35,7 +34,18 @@
         <label>Vegan<input type="radio" name="Diet " value="Vegan" id=""></label>
         <label>Kosher<input type="radio" name="Diet " value="Kosher" id=""></label>
         <label>Halal<input type="radio" name="Diet " value="Halal" id=""></label>
-        <label>Other<input type="radio" name="Diet " value="Other" id=""></label>
+        <details>
+            <summary>other</summary>
+            <input type="text" name="Diet">
+        </details>
+    </fieldset>
+
+    <fieldset>
+        <legend>Payment Details</legend>
+        <input type="text" name="card number" pattern="^(\d[ ]?){13,19}$" title="you nmust have betwee 13-19 digits" placeholder="enter curd number">
+        <input type="month" name="month" placeholder="DD/YY" title="must be this month or later.">
+        <input type="number" name="CVV" placeholder="CVV">
+        <input type="submit" value="submit">
     </fieldset>
 
 
