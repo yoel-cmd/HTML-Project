@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="post" action=""></form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <input type="text" name="username" min="2" required id="username" placeholder="enter name">
+        <input type="password" name="password" min="2" required id="password" placeholder="enter password" >
+        <input type="email" name="email" id="email" placeholder="enter email" >
+        <input type="tel" name="tel" placeholder="tel" id="tel">
+        <input type="submit" value="submit">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Ticket & Workshops</legend>
+        <select name="Tickets" id="icket" required>
+            <option value="Standard">Standard</option>
+            <option value="VIP">VIP</option>
+            <option value="Student">Student</option>
+        </select>
+        <fieldset>
+            <legend>Workshops </legend>
+        <label>Web Performance<input type="checkbox"></label>
+        <label>Accessibility<input type="checkbox"></label>
+        <label>Testing<input type="checkbox"></label>
+        </fieldset>
+        <label>None<input type="radio" name="Diet "  value="None" id=""></label>
+        <label>Vegan<input type="radio" name="Diet " value="Vegan" id=""></label>
+        <label>Kosher<input type="radio" name="Diet " value="Kosher" id=""></label>
+        <label>Halal<input type="radio" name="Diet " value="Halal" id=""></label>
+        <label>Other<input type="radio" name="Diet " value="Other" id=""></label>
+    </fieldset>
+
+
+
+    
+</body>
+</html>
