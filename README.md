@@ -88,28 +88,6 @@ Each input field is accompanied by a corresponding `<label>` using the `for` and
 
 ---
 
-## 🎨 Styling (To be added)
-
-Basic CSS can be added to:
-- Align input fields
-- Add spacing between sections
-- Style buttons and borders
-- Improve responsiveness
-
----
-
-## 🔧 To Do / Improvements
-
-- [ ] Add **Agreements Section**:
-  - File upload for Student ticket
-  - Terms and conditions checkbox
-- [ ] Add error messages with `aria-describedby`
-- [ ] Use JavaScript to conditionally show/hide "Other diet" input field
-- [ ] Improve input types (e.g., `type=password` for CVV)
-- [ ] Add CSS styling
-
----
-
 ## 🧠 Notes
 
 - Form `action=""` is currently empty → you can connect it to a server later.
